@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form HF1</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./validation.js"></script>
+</head>
+<body>
+  <header>
+    <h1>HF1</h1>
+  </header>
+  <hr>
+  <div class="wrapper">
+    <div class="input-form">
+      <div class="input-form-wrapper">
+        <h2>Send us a message</h2>
+        <form action="/action_page.php">
+          <input type="text" id="fname" name="name" placeholder="Name">
+          <div class="form-group">
+            <input type="text" id="email" name="email" placeholder="Email">
+            <label class="error" for="email">Please enter a valid email address</label>
+          </div>
+          <input type="text" id="lname" name="Subject" placeholder="Subject">
+          <textarea rows="6" type="text" id="lname" name="message" placeholder="Message"></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </div>
+    <div class="contact-info">
+      <div class="contact-info-wrapper">
+        <h2 id="contact-us">Contact us</h2>
+        <p>Let's talk about your project.</p>
+        <div class="contact-element" id="address"><img src="icons/gps.png" alt="location"> <span>Address 
+          Budapest,
+          Kossuth Lajos utca 2/A</span>
+        </div>
+        <div class="contact-element"><img src="icons/phone.png" alt="phone"><span>Phone: <a href="tel://36303842266">+36 30 384 2266</a></span></div>
+        <div class="contact-element"><img src="icons/email.png" alt="mail"><span>Email: <a href="mailto:hello@splendex.io?subject=Hello">hello@splendex.io</a></span></div>
+        <div class="contact-element"><img src="icons/site.png" alt="site"><span>Website: <a href="https://splendex.io/">Splendex</a></span></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
