@@ -1,0 +1,6 @@
+.contact-element__icon{
+    @include center-content();
+    padding: $gutter-xs;
+    width: 25px;
+    height: 25px;
+  }

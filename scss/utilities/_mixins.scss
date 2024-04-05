@@ -1,0 +1,25 @@
+@mixin center-content{
+  
+    justify-content: center;
+    align-content: center;
+  }
+
+
+  @mixin roundy($dim,$brdr){
+    width: $dim;
+    height: $dim;
+    border-radius: 50%;
+    border:$brdr;
+  }
+
+  @mixin flexy(
+    $disp: flex,
+    $dir: null,
+    $just:null,
+    $alignc:null
+  ){
+    display: $disp;
+    flex-direction: $dir;
+    justify-content: $just;
+    align-content:$alignc;
+  }

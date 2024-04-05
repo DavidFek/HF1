@@ -1,0 +1,51 @@
+.input-form {
+    background: $background-gradient-primary;
+  }
+  
+  .input-form__input {
+    background: $background-seethrough;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    margin-bottom: $gutter-xss;
+    border-bottom: $border-textarea;
+    height: $gutter-xl;
+    line-height: 1.5;
+  }
+  
+  .input-form__input::placeholder,
+  .input-form__textarea::placeholder {
+    color: $placeholder-color;
+    font-size: $font-size-m;
+  }
+  
+  .input-form__textarea {
+    background: $background-seethrough;
+    border: none;
+    outline: none;
+    text-align: start;
+    color: white;
+    margin-bottom: $gutter-s;
+    resize: vertical;
+    width: 100%;
+    resize: none;
+    font-family: inherit;
+    border-bottom: $border-textarea;
+  }
+  
+  .input-form__title {
+    font-size: $font-size-l;
+    margin-bottom: $gutter-xss;
+    line-height: 1.5;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    color: white;
+    font-weight: 500;
+  }
+  .input-form__error {
+    display: none;
+    color:$error-color;
+    font-size: $font-size-s;
+  }

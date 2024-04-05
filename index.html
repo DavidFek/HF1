@@ -4,41 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Form HF1</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="./validation.js"></script>
 </head>
 <body>
-  <header>
-    <h1>HF1</h1>
+  <header class="header">
+    <h1 class="header__title">HF1</h1>
   </header>
   <hr>
   <div class="wrapper">
     <div class="input-form">
-      <div class="input-form-wrapper">
-        <h2>Send us a message</h2>
-        <form action="/action_page.php">
-          <input type="text" id="fname" name="name" placeholder="Name">
-          <div class="form-group">
-            <input type="text" id="email" name="email" placeholder="Email">
-            <label class="error" for="email">Please enter a valid email address</label>
+      <div class="input-form__wrapper">
+        <h2 class="input-form__title">Send us a message</h2>
+        <form class="input-form__form" action="/action_page.php">
+          <input type="text" id="fname" name="name" class="input-form__input input-form__input--name" placeholder="Name">
+          <div class="input-form__form-group">
+            <input type="text" id="email" name="email" class="input-form__input input-form__input--email" placeholder="Email">
+            <label class="input-form__error" for="email">Please enter a valid email address</label>
           </div>
-          <input type="text" id="lname" name="Subject" placeholder="Subject">
-          <textarea rows="6" type="text" id="lname" name="message" placeholder="Message"></textarea>
-          <input type="submit" value="Send Message">
+          <input type="text" id="lname" name="Subject" class="input-form__input input-form__input--subject" placeholder="Subject">
+          <textarea rows="6" type="text" id="lname" name="message" class="input-form__textarea input-form__textarea--message" placeholder="Message"></textarea>
+          <input type="submit" value="Send Message" class="input-form__submit">
         </form>
       </div>
     </div>
+    
     <div class="contact-info">
-      <div class="contact-info-wrapper">
-        <h2 id="contact-us">Contact us</h2>
-        <p>Let's talk about your project.</p>
-        <div class="contact-element" id="address"><div class="image-wrapper"><img src="icons/gps.png" alt="location"></div> <span class="contact-info-text">Address 
-          Budapest,
-          Kossuth Lajos utca 2/A</span>
+      <div class="contact-info__wrapper">
+        <h2 class="contact-info__title">Contact us</h2>
+        <p class="contact-info__text">Let's talk about your project.</p>
+        <div class="contact-element">
+          <div class="contact-element__image-wrapper">
+            <img src="icons/gps.png" alt="location" class="contact-element__icon">
+          </div>
+          <span class="contact-element__text">Address Budapest, Kossuth Lajos utca 2/A</span>
         </div>
-        <div class="contact-element"><div class="image-wrapper"><img src="icons/phone.png" alt="phone"></div><span class="contact-info-text">Phone: <a href="tel://36303842266">+36 30 384 2266</a></span></div>
-        <div class="contact-element"><div class="image-wrapper"><img src="icons/email.png" alt="mail"></div><span class="contact-info-text">Email: <a href="mailto:hello@splendex.io?subject=Hello">hello@splendex.io</a></span></div>
-        <div class="contact-element"><div class="image-wrapper"><img src="icons/site.png" alt="site"></div><span class="contact-info-text">Website: <a href="https://splendex.io/">Splendex</a></span></div>
+        <div class="contact-element">
+          <div class="contact-element__image-wrapper">
+            <img src="icons/phone.png" alt="phone" class="contact-element__icon">
+          </div>
+          <span class="contact-element__text">Phone: <a href="tel://36303842266" class="contact-element__link">+36 30 384 2266</a></span>
+        </div>
+        <div class="contact-element">
+          <div class="contact-element__image-wrapper">
+            <img src="icons/email.png" alt="mail" class="contact-element__icon">
+          </div>
+          <span class="contact-element__text">Email: <a href="mailto:hello@splendex.io?subject=Hello" class="contact-element__link">hello@splendex.io</a></span>
+        </div>
+        <div class="contact-element">
+          <div class="contact-element__image-wrapper">
+            <img src="icons/site.png" alt="site" class="contact-element__icon">
+          </div>
+          <span class="contact-element__text">Website: <a href="https://splendex.io/" class="contact-element__link">Splendex</a></span>
+        </div>
       </div>
     </div>
   </div>

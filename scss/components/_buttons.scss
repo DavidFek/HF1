@@ -1,0 +1,19 @@
+.input-form__submit {
+    background: $button-color-primary;
+    border-color: $button-color-primary;
+    color: black;
+    padding: $gutter-xs $gutter-m;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: $font-size-m;
+    font-weight: 400;
+    box-shadow: $button-shadow;
+    position: relative;
+    margin-bottom: $gutter-m;
+    transition: 0.5s;
+     &:hover{
+      background: $button-color-seconday;
+      border-color: $button-color-seconday;
+      color: white;
+    }
+  }

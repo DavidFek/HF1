@@ -1,0 +1,29 @@
+$font-stack-primary:"Poppins", Arial, sans-serif;
+$font-size-s:0.75rem;
+$font-size-m:1rem;
+$font-size-l:1.75rem;
+$background-seethrough:rgba(0, 0, 0, 0);
+$background-gradient-primary:linear-gradient(
+  167deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(9, 147, 143, 1) 0%,
+  rgba(18, 6, 95, 1) 100%
+);
+$shadow-primary:0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+$border-image:1px solid rgba(0, 0, 0, 0.05);
+$border-textarea:1px solid rgba(255, 255, 255, 0.2);
+$button-color-primary:#21d6be;
+$button-color-seconday:#1aa48e;
+$button-shadow:0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+$placeholder-color:#adadadf1;
+$underline-color:#d62196;
+$base-color:#666666;
+$error-color:#f65c78;
+$link-color:rgba(0, 0, 0, 0.3);
+$gutter-xss: 0.5rem;
+$gutter-xs: 0.75rem;
+$gutter-s: 1rem;
+$gutter-m: 1.5rem;
+$gutter-l: 2rem;
+$gutter-xl:3rem;
+$break-l:768px;

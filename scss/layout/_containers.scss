@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    box-shadow: $shadow-primary;
+    @media (max-width: $break-l) {     
+        @include flexy($dir:column);
+        width: 90%;
+        height: 100%;
+      }
+  }
+
+  
+  
+  .input-form__wrapper,
+  .contact-info__wrapper {
+    @include flexy($dir:column,$alignc:center);
+    margin-top: 10%;
+    padding: $gutter-m;
+  }
+  
+ 
+  
+
+  
+  .contact-info,
+  .input-form {
+    @include flexy($alignc:center,$just:center);
+    flex: 1;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 50%;
+    padding: $gutter-m;
+    @media (max-width: $break-l) {
+        max-width: 100%;
+        flex: 1;
+      }
+  }
